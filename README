@@ -22,10 +22,10 @@ acclerate.py: about acclerator
 
 
 # TO STUDY
-* text_file_54.txt will generate an error                       (qq)
+* text_file_54.txt will generate an error                       (qq)     Done
 * how to train a minimal model for questions and answers style  (qj/qq)
 * Make clear on the relations                                   (qj)
   torch, torchvsion, train, ....
-* Can we run a model to generate answer in GPU to improve performance? (qj/qq)
+* Can we run a model to generate answer in GPU to improve performance? raspberry pi? (qj/qq)
 * Difference between various models in huff* site               (qj/qq)
-* 
+* dolly/gpt4all/standford
