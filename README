@@ -19,3 +19,13 @@ dataset.py: view dataset, in fact are images
 
 tokenizer.py: about tokenizer
 acclerate.py: about acclerator
+
+
+# TO STUDY
+* text_file_54.txt will generate an error                       (qq)
+* how to train a minimal model for questions and answers style  (qj/qq)
+* Make clear on the relations                                   (qj)
+  torch, torchvsion, train, ....
+* Can we run a model to generate answer in GPU to improve performance? (qj/qq)
+* Difference between various models in huff* site               (qj/qq)
+* 
