@@ -5,13 +5,16 @@ from transformers import Trainer, TrainingArguments
 from datasets import load_dataset, DatasetDict
 
 tokenizer = GPT2Tokenizer.from_pretrained('distilgpt2')
-tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+# tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+tokenizer.pad_token = tokenizer.eos_token
 model = GPT2LMHeadModel.from_pretrained('distilgpt2')
+
 
 def tokenize_function(examples):
     return tokenizer(examples['text'])
 
-dataset = load_dataset('text', data_files={'train': ['text_file.txt']})
+
+dataset = load_dataset('text', data_files={'train': ['text_file_54.txt']})
 
 dataset = dataset.map(tokenize_function, batched=True)
 
@@ -31,4 +34,4 @@ trainer = Trainer(model=model,
 
 trainer.train()
 
-trainer.save_model('./new_model3')
+trainer.save_model('./new_model4')

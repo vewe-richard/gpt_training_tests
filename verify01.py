@@ -5,7 +5,7 @@ import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 # Load the trained model from disk
-model_path = "/home/richard/disks/sdb6/2023/openalpr/torch/new_model3"
+model_path = "new_model4"
 if not os.path.exists(model_path):
     print(model_path, "is not exist")
     sys.exit(0)
