@@ -1,0 +1,21 @@
+# train gpt2 minimal and verifying
+training02.py: train distilgpt2 with text_file.txt, output model ./new_model3
+text_file.txt: 
+text_file_54.txt: which caused error, to be fixed
+verify01.py: verify training result by generate answers from ./new_model3
+
+
+# train image recognization and verifying
+main.py: training and output model mnist_model.pth
+verify.py
+
+test.py: test predition from one image
+test1.py: test predition from one image
+
+dataset.py: view dataset, in fact are images
+
+
+# Others
+
+tokenizer.py: about tokenizer
+acclerate.py: about acclerator

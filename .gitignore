@@ -1,0 +1,7 @@
+new_model*
+.idea/
+data/
+cached_*
+test/
+train/
+mnist_model.pth
